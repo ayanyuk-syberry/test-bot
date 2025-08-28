@@ -12,7 +12,7 @@ repositories {
 
 dependencies {
     // Example: JUnit for testing
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.13.4'
+    testImplementation "org.junit.jupiter:junit-jupiter:${junitVersion}"
 }
 
 test {
