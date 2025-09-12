@@ -6,7 +6,7 @@ ksp = "2.2.10-2.0.2"
 micronaut-plugin = "4.5.4"
 micronaut = "4.9.2"
 openapi-generator = "7.13.0"
-shadow = "8.3.7"
+shadow = "9.1.0"
 jacoco = "0.8.9"
 mockito-kotlin = "5.4.0"
 
