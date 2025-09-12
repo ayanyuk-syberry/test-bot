@@ -3,7 +3,6 @@ name: Update Gradle Wrapper
 permissions:
   pull-requests: write
   contents: write
-  actions: write
 
 on:
   schedule:
