@@ -1,14 +1,13 @@
 [versions]
 kotlin = "2.2.20"
 detekt = "1.23.8"
-cyclonedx-plugin = "1.7.4"
-ksp = "2.2.20-2.0.3"
-micronaut-plugin = "4.5.4"
-micronaut = "4.9.2"
-openapi-generator = "7.13.0"
-shadow = "9.1.0"
-jacoco = "0.8.9"
-mockito-kotlin = "6.0.0"
+cyclonedx-plugin = "3.0.0"
+ksp = "2.2.20-2.0.4"
+micronaut-plugin = "4.5.5"
+micronaut = "4.9.4"
+openapi-generator = "7.16.0"
+shadow = "8.3.9"
+mockito-kotlin = "6.1.0"
 
 [plugins]
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
@@ -27,6 +26,8 @@ shadow = { id = "com.gradleup.shadow", version.ref = "shadow" }
 openapi-generator = { id = "org.openapi.generator", version.ref = "openapi-generator" }
 
 [libraries]
+#micronaut-bom is added automatically by the micronaut plugin, here we just declare it so dependabot can manage the version
+micronaut-bom = { module = "io.micronaut.platform:micronaut-platform", version.ref = "micronaut" }
 kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect", version.ref = "kotlin" }
 kotlin-stdlib-jdk8 = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk8", version.ref = "kotlin" }
 mockito-kotlin = { module = "org.mockito.kotlin:mockito-kotlin", version.ref = "mockito-kotlin" }
