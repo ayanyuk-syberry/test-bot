@@ -9,3 +9,13 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
+    groups:
+      kotlin:
+        patterns:
+          - "org.jetbrains.kotlin*"
+          - "com.google.devtools.ksp"
+          - "io.gitlab.arturbosch.detekt"
+          - "com.gradleup.shadow"
+      micronaut:
+        patterns:
+          - "io.micronaut*"
