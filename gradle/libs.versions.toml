@@ -1,7 +1,7 @@
 [versions]
 kotlin = "2.2.20"
 detekt = "1.23.8"
-cyclonedx-plugin = "3.0.0"
+cyclonedx-plugin = "3.0.1"
 ksp = "2.2.20-2.0.4"
 micronaut-plugin = "4.5.5"
 micronaut = "4.9.4"
