@@ -11,7 +11,7 @@ mockito-kotlin = "6.1.0"
 jsoup = "1.16.1"
 flying-saucer-pdf = "9.11.3"
 commons-io = "2.14.0"
-jackson-csv = "2.17.2"
+jackson-csv = "2.20.0"
 okhttp = "5.2.1"
 
 [plugins]
