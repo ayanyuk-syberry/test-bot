@@ -2,7 +2,7 @@
 kotlin = "2.2.20"
 detekt = "1.23.8"
 cyclonedx-plugin = "3.0.1"
-ksp = "2.2.20-2.0.4"
+ksp = "2.3.0"
 micronaut-plugin = "4.6.0"
 micronaut = "4.9.4"
 openapi-generator = "7.16.0"
